@@ -42,10 +42,10 @@ public class UserService {
                 data.setAddress(addressNew);
                 list2.add(data);
 
-                return "Address Updated////";
+                return "Address Updated successfully....!!!!";
             }
         }
-        return "Address not Updated Error....///";
+        return "Address not Updated Error....!!!!";
     }
 
     public String DeleteUserById(String id) {
@@ -54,10 +54,10 @@ public class UserService {
             if (data.getUserId().equals(id)) {
                 list2.remove(data);
 
-                return "User Deleted Succsesfully////";
+                return "User Deleted Successfully...!!!!!";
             }
         }
-        return "User Not Exist...Error ////";
+        return "User Not Exist...Error...!!!!";
     }
 }
 

@@ -12,7 +12,7 @@ public class UserDatabase {
 
     public String Save(UserDetails data){
         list.add(data);
-        return "User Details Added///";
+        return "User Details Added successfully....!!!!";
     }
     public ArrayList<UserDetails> CallArrayList(){
         return list;
